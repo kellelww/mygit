@@ -1,0 +1,67 @@
+.alg-content {
+  padding: 20px;
+  display: flex;
+  .ant-card-bordered {
+    box-shadow: #e8e8e8  1px 1px 1px 2px 
+  }
+  .alg-icon {
+    color: #000;
+  }
+  .alg-status {
+    color: #00CA14!important;
+  }
+  .form-input {
+    display: flex;
+    justify-content: space-around;
+  }
+  .card-hover {
+    margin-right: 20px;
+    &:hover {
+      border: 1px solid #0FB2CC;
+    }
+  }
+  .card-title {
+    border-bottom: 1px solid #dcdcdc;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 15px;
+    .radio-title {
+      font-size: 16px;
+      margin-left: 10px;
+    }
+  }
+  .card-dev {
+    font-size: 15px;
+    padding-left: 88px;
+    color: #dcdcdc;
+  }
+  .selecte-alg {
+    position: absolute;
+    right: 210px;
+    bottom: 25px;
+    font-size: 15px;
+    color: #8e8c8c;
+    z-index: 1;
+    span {
+      color: #444;
+    }
+  }
+  .form-all {
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    .label-name {
+      float:left;
+      line-height: 28px;
+      white-space: nowrap;
+      width: 100px;
+      text-overflow: ellipsis;
+    }
+    .input-distance {
+      width: 130px;
+      float: right;
+    }
+  }
+
+}

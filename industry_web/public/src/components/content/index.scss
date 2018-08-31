@@ -1,0 +1,44 @@
+
+.content-component::-webkit-scrollbar {
+  width: 0px;
+}
+
+.content-component {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  padding-top: 70px;
+  position: relative;
+  overflow: hidden;
+  .content-box::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  .content-box {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    border: 1px solid #bbb;
+    background: #fff;
+    .box::-webkit-scrollbar {
+      width: 0px;
+    }
+    .box {
+      width: 100%;
+      height: 100%;
+      overflow: scroll;
+      padding-bottom: 50px;
+    }
+    h2 {
+      width: 100%;
+      height: 50px;
+      background: #FBFBFC;
+      font-family: MicrosoftYaHei;
+      font-size: 14px;
+      color: #666666;
+      line-height: 50px;
+      font-weight: 100;
+      padding-left: 21px;
+    }
+  }
+}

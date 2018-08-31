@@ -1,0 +1,357 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: #EDEDED;
+}
+
+body .data-overview .number-overview:nth-child(odd),
+html .data-overview .number-overview:nth-child(odd) {
+  margin-right: 1.5%;
+}
+
+body .data-overview .number-overview,
+html .data-overview .number-overview {
+  float: left;
+  width: 49%;
+  height: 123px;
+  padding: 15px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+}
+
+body .data-overview .number-overview h2,
+html .data-overview .number-overview h2 {
+  width: 150px;
+  height: 123px;
+  line-height: 120px;
+  font-family: "MicrosoftYaHei-Bold";
+  font-size: 24px;
+  color: #4A4A4A;
+  text-align: right;
+  background: url("https://img.alicdn.com/tfs/TB10L0iXgjrL1Jjy1XaXXXXuVXa-266-166.png") left bottom no-repeat;
+  background-size: 100% 50%;
+}
+
+body .data-overview .number-overview .number-overview-dl,
+html .data-overview .number-overview .number-overview-dl {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body .data-overview .number-overview .number-overview-dl dl dt,
+html .data-overview .number-overview .number-overview-dl dl dt {
+  font-family: "MicrosoftYaHei";
+  font-size: 14px;
+  color: #B9B9B9;
+}
+
+body .data-overview .number-overview .number-overview-dl dl dd,
+html .data-overview .number-overview .number-overview-dl dl dd {
+  font-family: "PingFangSC-Light";
+  font-size: 36px;
+  color: #35B34A;
+}
+
+body .data-overview .chart-overview,
+html .data-overview .chart-overview {
+  width: 100%;
+  margin: 1% 0;
+  overflow: hidden;
+}
+
+body .data-overview .chart-overview .chart-overview-chart:nth-child(odd),
+html .data-overview .chart-overview .chart-overview-chart:nth-child(odd) {
+  margin-right: 1.5%;
+}
+
+body .data-overview .chart-overview .chart-overview-chart,
+html .data-overview .chart-overview .chart-overview-chart {
+  width: 49%;
+  height: 362px;
+  background: #FFFFFF;
+  padding: 15px;
+  float: left;
+  margin-top: 15px;
+}
+
+body .data-overview .chart-overview .chart-overview-chart .title-select,
+html .data-overview .chart-overview .chart-overview-chart .title-select {
+  display: flex;
+}
+
+body .data-overview .chart-overview .chart-overview-chart .title-select h2,
+html .data-overview .chart-overview .chart-overview-chart .title-select h2 {
+  font-family: "MicrosoftYaHei-Bold";
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 0.16px;
+  margin-right: 20px;
+}
+
+body .data-business,
+html .data-business {
+  width: 100%;
+  height: 100%;
+  padding: 20px 10px;
+  padding-top: 50px;
+  position: relative;
+}
+
+body .data-overview,
+html .data-overview {
+  width: 100%;
+  height: 100%;
+  padding: 20px 10px;
+  padding-top: 50px;
+  margin-left: 10px;
+  position: relative;
+}
+
+body .data-overview .ant-select,
+html .data-overview .ant-select {
+  width: 28%;
+}
+
+body .data-table,
+html .data-table {
+  width: 100%;
+  height: 100%;
+  padding: 20px 10px;
+  padding-top: 50px;
+  position: relative;
+  background-color: white;
+}
+
+body .data-business ul,
+html .data-business ul {
+  width: 100%;
+  overflow: hidden;
+}
+
+body .data-business li,
+html .data-business li {
+  width: 24%;
+  height: 175px;
+  background: #FFFFFF;
+  padding: 20px;
+  float: left;
+  margin: 1% 0.5% 0;
+}
+
+body .data-business li h3,
+html .data-business li h3 {
+  font-size: 16px;
+}
+
+body .data-business li p,
+html .data-business li p {
+  font-family: "MicrosoftYaHei";
+  font-size: 12px;
+  color: #B9B9B9;
+}
+
+body .data-business li .num-tar,
+html .data-business li .num-tar {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+body .data-business li dl,
+html .data-business li dl {
+  float: left;
+  margin: 20px 40px 0 0;
+}
+
+body .data-business li dl dt,
+html .data-business li dl dt {
+  font-family: "MicrosoftYaHei";
+  font-size: 12px;
+  color: #B9B9B9;
+}
+
+body .data-business li dl dd,
+html .data-business li dl dd {
+  font-family: "MicrosoftYaHei";
+  font-size: 28px;
+  color: #B9B9B9;
+  text-align: center;
+  margin-top: 5px;
+}
+
+body .next-select.medium,
+html .next-select.medium {
+  width: 182px;
+  height: 28px;
+  background: #FFFFFF;
+  border: 1px solid #DCDCDC;
+  border-radius: 2px;
+}
+
+body .next-tabs-medium .next-tabs-content,
+html .next-tabs-medium .next-tabs-content {
+  padding: 16px 0;
+}
+
+body .next-table th,
+html .next-table th {
+  border: none;
+  background: #FBFBFC;
+}
+
+body .selectedItem,
+html .selectedItem {
+  font-family: "MicrosoftYaHei";
+  font-size: 12px;
+  color: #333333;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+body .selectedItem span,
+html .selectedItem span {
+  color: #00C1DE;
+}
+
+body .mask-details,
+html .mask-details {
+  width: 42%;
+  height: 100%;
+  position: fixed;
+  top: 50px;
+  z-index: 1001;
+  background: #fff;
+  border: 1px solid #E8E8E8;
+  overflow-y: scroll;
+}
+
+body .mask-details .detail-content,
+html .mask-details .detail-content {
+  height: 85%;
+  overflow-y: scroll;
+  padding-bottom: 60px;
+}
+
+body .mask-details h3,
+html .mask-details h3 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+body .mask-details .mask-close,
+html .mask-details .mask-close {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-top: 1px solid #dcdcdd;
+}
+
+body .mask-details .mask-close .pagenum,
+html .mask-details .mask-close .pagenum {
+  position: absolute;
+  left: 42%;
+  top: 23%;
+}
+
+body .mask-details .mask-close .close,
+html .mask-details .mask-close .close {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
+body .mask-details .pagination,
+html .mask-details .pagination {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dcdcdd;
+  background: white;
+}
+
+body .maskLayer-active,
+html .maskLayer-active {
+  transition: 0.5s;
+  z-index: 500;
+}
+
+body .maskLayer-hide,
+html .maskLayer-hide {
+  transition: 0.5s;
+  z-index: -1;
+}
+
+body .close-active,
+html .close-active {
+  transition: 0.5s;
+  right: -100%;
+}
+
+body .is-mask-active,
+html .is-mask-active {
+  transition: 0.5s;
+  right: -1%;
+}
+
+body .data-null,
+html .data-null {
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+body .data-null .bg-img,
+html .data-null .bg-img {
+  width: 40%;
+  height: 40%;
+  background: url("https://img.alicdn.com/tfs/TB16Q2LatfJ8KJjy0FeXXXKEXXa-204-166.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+
+body .data-null p,
+html .data-null p {
+  width: 100%;
+  font-family: 'PingFangSC-Regular';
+  font-size: 12px;
+  color: #999999;
+  text-align: center;
+}
+
+body .data-null p a,
+html .data-null p a {
+  color: #00C1DE;
+}
+
+body .data-null .text1,
+html .data-null .text1 {
+  position: absolute;
+  top: 55%;
+}
+
+body .data-null .text2,
+html .data-null .text2 {
+  position: absolute;
+  top: 65%;
+}
+
+.container .main-content .right-content.right-content-full {
+  padding-left: 180px;
+}

@@ -1,0 +1,115 @@
+$width: 1150px;
+$color-n2-4:#333333;
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: #ededed;
+  .next-icon-zuidahua {
+    float: right;
+    line-height: 12px;
+    top: 17px;
+  }
+  .next-nav-primary.ver .next-nav-menu .next-nav-item,
+  html .next-nav-primary.ver .next-nav-menu .next-nav-item {
+    padding-right: 0;
+  }
+  .registered-page {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+
+    .header-gg {
+      width: 100%;
+      height: 30px;
+      background: #ffffff;
+
+      header {
+        width: 1200px;
+        height: 30px;
+        font-family: "MicrosoftYaHei";
+        font-size: 12px;
+        color: #999999;
+        margin: 0 auto;
+        line-height: 27px;
+
+        span {
+          font-family: "MicrosoftYaHei";
+          font-size: 12px;
+          color: #333333;
+        }
+      }
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      position: relative;
+
+      .left-menu {
+        position: fixed;
+        top: 50px;
+        bottom: 0;
+        // overflow: auto;
+        width: 160px;
+        z-index: 100;
+        height: auto;
+        background-color: $color-n2-4;
+        ul{
+          background-color: $color-n2-4;
+          li{
+            display: flex;
+            justify-content:space-between;
+            align-items:center;
+          }
+        }
+      }
+
+      .content-right {
+        width: 100%;
+        min-width: 1130px;
+        position: fixed;
+        top: 50px;
+        left: 180px;
+        height: 100%;
+        overflow: hidden;
+        background: #050e37;
+        margin-left: -180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .content-html {
+          width: $width;
+          height: $width/2;
+          margin: -30px 0 0 180px;
+
+          .full-Screen {
+            position: fixed;
+            right: 10px;
+            top: 55px;
+
+            .next-icon-medium:before {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .next-nav-primary.ver .next-nav-menu .next-nav-item {
+    background-color: #333333;
+  }
+  .left-nav-item-icon {
+    display: none;
+    margin-left:5px;
+  }
+  .left-nav-item-icon-show {
+    display: initial;
+  }
+  .left-nav-item:hover .left-nav-item-icon {
+    display: initial;
+  }
+}

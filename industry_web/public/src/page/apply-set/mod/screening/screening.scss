@@ -1,0 +1,44 @@
+.screening-content {
+  height: 100%;
+  position: relative;
+  .optional {
+    float: left;
+    width: 45%;
+    .optional-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      line-height: 28px;
+      .search-content {
+        height: 28px;
+        position: relative;
+        .search {
+          position: absolute;
+          right: 5px;
+          top: 2px;
+        }
+      }
+    }
+
+  }
+  .screening {
+    float: right;
+    width: 45%;
+    .screening-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .arrow {
+    position: absolute;
+    left: 48.25%;
+    top: 14%;
+  }
+  .tab-action {
+    // color: #0FB2CC!important;
+    cursor: pointer;
+  }
+  .Transfer {
+  }
+}

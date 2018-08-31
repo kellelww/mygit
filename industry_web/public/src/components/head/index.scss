@@ -1,0 +1,225 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+
+  .login-page-head {
+    width: 100%;
+    height: 50px;
+    background: #1b2126;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+
+    .login-page-header {
+      width: 100%;
+      height: 50px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: relative;
+      .ant-menu-horizontal{
+        background-color: #1b2126;
+        border:none;
+        li{
+          &:nth-child(2){
+            .menu-active{
+              color: #1890ff;
+            }
+            border:none;
+            &:hover{
+              border:none;
+            }
+          }
+          &:first-child{
+            border:none;
+            &:hover{
+              border:none;
+            }
+          }
+          color: #FFFFFF;
+          a{
+            color: #FFFFFF;
+          }
+        }
+      }
+      .little-logo {
+        width: 60px;
+        height: 30px;
+        color: #00c1de;
+        font-size: 25px;
+        display: inline-block;
+        position: relative;
+        top: 6px;
+        background: url("https://img.alicdn.com/tfs/TB1Pu38b4SYBuNjSspjXXX73VXa-180-90.png")
+          left center;
+        -webkit-background-size: cover;
+        background-size: 100% 100%;
+      }
+
+      .header-text {
+        font-size: 14px;
+        color: #ffffff;
+        line-height: 45px;
+        margin-left: 6px;
+        display: inline-block;
+        position: relative;
+        top: -3px;
+      }
+
+      .login-info-show {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+
+        .user-img {
+          background: url("https://img.alicdn.com/tfs/TB19dl8dMoQMeJjy0FpXXcTxpXa-60-60.png")
+            left top no-repeat;
+          background-size: cover;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .icon-position {
+      position: absolute;
+      right: 0px;
+      top: 1px;
+    }
+
+    .menu-block {
+    }
+
+    .menu-style {
+      position: absolute;
+      left: 0;
+      top: 50px;
+      border: none;
+
+      .next-menu {
+        border: none;
+      }
+
+      .next-menu-content {
+        width: 100%;
+      }
+
+      .next-menu-submenu-item-popup {
+        padding-left: 1px;
+      }
+      .next-menu-submenu-item-popup {
+        padding-left: 1px;
+      }
+      .my-next-menu-item {
+        background: #262c30;
+        padding: 0 0 0 3px !important;
+      }
+      .my-next-menu-item-child {
+        background: #262c30;
+        width: 100%;
+        padding-left: 18px;
+        &:hover {
+          background: #1b2126;
+        }
+      }
+      ul {
+        background: #1c2127;
+
+        > li {
+          display: block !important;
+          color: #939ea8;
+          min-width: 120px;
+          height: 44px;
+          background: #262c30;
+          height: 44px;
+          line-height: 44px;
+
+          .next-menu-submenu-title {
+            height: 44px;
+            line-height: 44px;
+            border-radius: 3px;
+            background: #262c30;
+            color: #939ea8;
+          }
+        }
+      }
+      .menu-active {
+        background: #0fb2cd;
+      }
+    }
+
+    .menu-none {
+      left: -1000%;
+      top: -600%;
+    }
+
+    .next-menu .next-menu-submenu-item-popup.opened > .next-menu-submenu-title {
+      background: #1c2127;
+    }
+  }
+
+  .next-nav-primary.hoz .next-nav-menu .next-nav-item {
+    height: 50px;
+  }
+
+  .next-nav-primary.hoz .next-nav-menu,
+  .next-nav-primary.hoz .next-nav-menu .next-nav-item {
+    background: #1b2126;
+  }
+
+  .next-icon-medium:before {
+    font-size: 14px;
+    margin-left: 2px;
+  }
+
+  .home-page {
+    margin-top: 50px;
+  }
+
+  .next-nav-primary.hoz .next-nav-menu .next-nav-item.selected {
+    background: #1b2126;
+  }
+
+  // .login-page-header .next-menu-submenu-title {
+  //
+  //   position: relative;
+  //   left: 3px;
+  // }
+
+  .next-overlay-wrapper .next-overlay-inner {
+    z-index: 9999;
+  }
+}
+
+.handle-list {
+  width: 200px;
+  padding-top: 10px;
+  li {
+    width: 200px;
+    height: 40px;
+    color: white;
+    background: #262c30;
+    line-height: 40px;
+    padding: 0 0 0 3px;
+    .my-next-menu-item-child {
+      background: #262c30;
+      width: 100%;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      padding-left: 18px;
+      &:hover {
+        background: #1b2126;
+      }
+    }
+  }
+
+  li:hover {
+    background: #1b2126;
+  }
+}

@@ -1,0 +1,149 @@
+// @import '../../styles/common';
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background:white;
+  
+
+  .registered-page {
+    height: 100%;
+    width: 100%;
+    padding-top:30px;
+
+    .header-gg {
+      width: 100%;
+      height: 50px;
+      background: #FFFFFF;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .header-logo {
+        display: flex;
+        align-items: center;
+
+        .head-logo {
+          display: inline-block;
+          width: 40px;
+          height: 50px;
+          background: #1B2126;
+        }
+
+        h3 {
+          font-family: "PingFangSC-Regular";
+          font-size: 16px;
+          color: #333333;
+          line-height: 18px;
+          margin-top: 5px;
+        }
+      }
+    }
+
+    .container {
+      width: 100%;
+      min-height: 100%;
+      margin: 0 auto;
+      padding-top: 20px;
+      .maskLayer {
+        width: 100%;
+        height: 100%;
+        min-height: 750px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0,0,0,0.50);
+      }
+    
+      .mask-details {
+        width: 42%;
+       height: 100%;
+        position: fixed;
+        top: 50px;
+        z-index: 1001;
+        background: #fff;
+        border: 1px solid #E8E8E8;
+        overflow-y: scroll;
+        .detail-content{
+          height: 85%;
+          overflow-y: scroll;
+          padding-bottom: 60px;
+        }
+    
+        h3 {
+          margin-left: 10px;
+          margin-top: 10px;
+        }
+    
+        .mask-close {
+          width: 100%;
+          height: 50px;
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          border-top: 1px solid #dcdcdd;
+    
+          .pagenum {
+            position: absolute;
+            left: 42%;
+            top: 23%;
+          }
+    
+          .close {
+            position: absolute;
+            right: 30px;
+            top: 10px;
+          }
+        }
+    
+        .pagination{
+          width:100%;
+          height: 60px;
+          position:absolute;
+          left: 0;
+          bottom: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 1px solid #dcdcdd;
+          background:white;
+          
+        }
+      }
+      .maskLayer-active {
+        transition: 0.5s;
+        z-index: 500;
+      }
+    
+      .maskLayer-hide {
+        transition: 0.5s;
+        z-index: -1;
+      }
+    
+      .close-active {
+        transition: 0.5s;
+        right: -100%;
+      }
+    
+      .is-mask-active {
+        transition: 0.5s;
+        right: -1%;
+      }
+
+      .content {
+        width: 100%;
+        min-height: 100%;
+        overflow: hidden;
+        background: #FFFFFF;
+        padding: 20px;
+      }
+    }
+
+    .next-table th {
+      background: #FBFBFC;
+      color: #999999;
+      // text-align: center;
+    }
+  }
+}

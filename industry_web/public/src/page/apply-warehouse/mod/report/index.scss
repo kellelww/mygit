@@ -1,0 +1,108 @@
+@import "../../../../styles/common";
+
+.apply-warehouse-mod-report {
+  // style={ {width: '100%', height: '100%', marginTop: 50, flexDirection: 'row', display: 'flex',background:'#ff0',} }
+  border: 1px solid #ddd;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  background: #ededed;
+
+  .multparam-left-top {
+    font-size: 14px;
+    font-weight: 100;
+    width: 100%;
+    height: 50px;
+    background: #fbfbfc;
+    color: #999999;
+    line-height: 50px;
+    padding-left: 21px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "MicrosoftYaHei";
+  }
+  .contain {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .add-border {
+    border: 1px solid #cccccc;
+    border-left-width: 0;
+    border-right-width: 0;
+  }
+  .data-table {
+    border: 1px solid #cccccc;
+    min-width: 900px;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    overflow: scroll;
+    padding: 70px 20px 0 20px;
+
+    .left-content {
+      border-left: 1px solid #dcdcdc;
+    }
+    .left {
+      width: 250px;
+      height: 100%;
+      background: #ffffff;
+      border-top: 1px solid #dcdcdc;
+      border-bottom: 1px solid #dcdcdc;
+      .left-top {
+        background: #fbfbfc;
+        width: 100%;
+        height: 52px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+    }
+    .home-page {
+      text-align: left;
+      background: #ffffff;
+      width: 100%;
+      overflow: hidden;
+      height: 100%;
+      .ant-pagination {
+          margin: 16px 10px;
+          float: right;
+      }
+      .next-table td .next-table-cell-wrapper {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        line-height: 26px;
+        padding:9px 16px;
+      }
+
+
+      .white-table th{
+        background: #fbfbfc;
+        // text-align: center;
+
+      }
+
+    }
+  }
+  .next-nav-normal.ver .next-nav-menu .next-nav-item.selected {
+    background-color: #f3fcff;
+    color: #000;
+  }
+
+  .next-nav-normal.ver .next-nav-menu {
+    border: none;
+  }
+
+  .next-table-header-inner table {
+    height: 51px;
+  }
+}
+

@@ -1,0 +1,36 @@
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title><%=htmlWebpackPlugin.options.title[1][htmlWebpackPlugin.options.title[0]] %></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <!-- 需要替换的链接 Start -->
+  <script>
+    //多页面跳转配置当前页面的对应菜单选中
+    window.selectedMenuKey = 'data';
+    //请根据页面所处的环境,设置不同的变量:local/development/pre/production
+    //用于ajax请求接口进行切换
+    window._APIMAP_ENV = 'local';
+    window.entiretyInfo = {
+      menu: '',
+    };
+    //retCode监控平台配置
+    window.__WPO && window.__WPO.setConfig({
+      sample: 100, // 抽样率，100 = 1%，1 = 100%，默认100
+      spmId: '', // spmId，如果没写默认值，会自动抓页面的spm
+      modVal: 1, // 抽样的取值，取模后的数值==该值的认为符合抽样，以页面uid作为基数来抽样，默认1
+      startTime: 0 // 自定义测速类页面统计起始时间
+    });
+    window.openRetcode = false; //接入retCode开关
+  </script>
+</head>
+
+<body>
+  <div id="container">
+    <div class="c-loading">页面加载中...</div>
+  </div>
+
+</body>
+
+</html>

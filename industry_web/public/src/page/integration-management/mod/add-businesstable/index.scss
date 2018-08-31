@@ -1,0 +1,213 @@
+@import '../../../../styles/common';
+.addTable-page {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  .container {
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 55px 15px 0;
+    overflow: hidden;
+
+    .content {
+      width: 100%;
+      min-height: 100%;
+      overflow: hidden;
+      background: #ededed;
+      padding: 10px;
+
+      .disabled {
+        color: #999999;
+      }
+
+      .next-form-hoz .next-form-item {
+        margin-right: 30px;
+      }
+
+      .next-form-left.next-form-medium .next-form-item-label {
+        font-family: "MicrosoftYaHei";
+        font-size: 14px;
+        color: #333333;
+      }
+    }
+  }
+
+  .help-text {
+    font-family: 'PingFangSC-Regular';
+    font-size: 14px;
+    letter-spacing: 0;
+    cursor: pointer;
+    color: #999999;
+    position: relative;
+    left: -15px;
+    top: 5px;
+  }
+
+  .show-setting-desc {
+    font-family: "MicrosoftYaHei";
+    font-size: 14px;
+    color: #0FB2CC;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+
+  .maskLayer {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.50);
+  }
+
+  .mask-content {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pagination {
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 6px 0 rgba(130,150,183,0.72);
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+  }
+
+  .set-dec-title {
+    h3 {
+      font-family: "MicrosoftYaHei";
+      font-size: 14px;
+      color: #2B2D47;
+    }
+    width: 100%;
+    height: 40px;
+    border: 1px solid #DCDCDC;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .set-dec-info {
+    padding: 20px 30px 20px 20px;
+    font-family: "MicrosoftYaHei";
+    font-size: 12px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 21px;
+  }
+
+  .detail-content {
+    height: 100%;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+
+    .table-content {
+      flex: 1;
+      overflow: scroll;
+      padding-bottom: 80px;
+      margin-right: 10px;
+    }
+  }
+
+  .readonly {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    background: #ECECEC;
+    border-radius: 2px;
+    font-family: "PingFangSC-Regular";
+    font-size: 10px;
+    color: #000000;
+  }
+
+  .mask-details {
+    width: 60%;
+    position: fixed;
+    height: 100%;
+    top: 50px;
+    z-index: 1001;
+    background: #fff;
+    overflow: hidden;
+
+    h3 {
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+
+    .mask-close {
+      width: 100%;
+      height: 50px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      border-top: 1px solid #dcdcdd;
+
+      .pagenum {
+        position: absolute;
+        left: 42%;
+        top: 23%;
+      }
+
+      .close {
+        position: absolute;
+        right: 30px;
+        top: 10px;
+      }
+    }
+
+    .totalNum {
+      padding: 30px 0 30px 145px;
+    }
+
+    .tag-list {
+      width: 100%;
+      margin-top: 30px;
+      padding: 0 0 45px 45px;
+      overflow-y: scroll;
+    }
+  }
+
+  .maskLayer-active {
+    transition: 0.5s;
+    z-index: 500;
+  }
+
+  .maskLayer-hide {
+    transition: 0.5s;
+    z-index: -1;
+  }
+
+  .close-active {
+    transition: 0.5s;
+    right: -100%;
+  }
+
+  .is-mask-active {
+    transition: 0.5s;
+    right: -1%;
+  }
+  .next-table td .next-table-cell-wrapper,
+  .next-table th .next-table-cell-wrapper {
+    padding-left:40px;
+  }
+ 
+}
+.next-table th {
+  background: #FBFBFC;
+}
+.next-table td,.next-table th{
+  border-color:#F6F3F3;
+
+}

@@ -1,0 +1,86 @@
+.task-manage-content {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.task-manage-content .recommended {
+  height: 100%;
+  padding: 30px;
+  padding-left: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.task-manage-content .recommended .recommended-left {
+  background: #fff;
+  padding-top: 50px;
+  overflow: hidden;
+  width: 253px;
+  height: 100%;
+  box-shadow: 0px 0px 5px #ccc, 0 0 5px #ccc, 0 0 5px #ccc;
+}
+
+.task-manage-content .recommended .recommended-left p {
+  margin-top: 5px;
+  width: 100%;
+  margin-left: 30px;
+  font-size: 12px !important;
+}
+
+.task-manage-content .recommended .recommended-left div {
+  width: 100%;
+  margin-left: 30px;
+  font-size: 12px !important;
+}
+
+.task-manage-content .recommended .recommended-left .task-name {
+  color: #b1b1b1;
+}
+
+.task-manage-content .recommended .recommended-table {
+  position: absolute;
+  left: 280px;
+  top: 100px;
+  overflow: hidden;
+  margin-left: 10px;
+  height: 100%;
+}
+
+.task-manage-content .recommended .recommended-table .recommended-page {
+  width: 100%;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.task-manage-content .recommended .recommended-table .recommended-page .ant-card-head-title {
+  padding: 0;
+  margin: 16px 0;
+  border-left: 4px solid #1890ff;
+  padding-left: 8px;
+}
+
+.task-manage-content .recommended .recommended-table .preferred-plan {
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.task-manage-content .recommended .recommended-table .preferred-plan .params {
+  color: #b1b1b1;
+}
+
+.task-manage-content .recommended .recommended-table .preferred-plan .style {
+  color: #b1b1b1;
+  font-size: 20px;
+}
+
+.task-manage-content .recommended .recommended-table .preferred-plan .func-details {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.task-manage-content .recommended .recommended-table .preferred-plan .func-details .distance {
+  margin-right: 6px;
+}

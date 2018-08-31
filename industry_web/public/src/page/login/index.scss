@@ -1,0 +1,82 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: url('https://img.alicdn.com/tfs/TB1MOgxcPihSKJjy0FiXXcuiFXa-2560-1320.png') center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+
+  .login-page {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    .login-page-header {
+      height: 50px;
+      background: #333333;
+      padding-left: 20px;
+
+      .little-logo {
+        width: 60px;
+        height:30px;
+        color: #00c1de;
+        font-size: 25px;
+        display: inline-block;
+        position: relative;
+        top: 6px;
+        background:url('https://img.alicdn.com/tfs/TB1BcpLbTtYBeNjy1XdXXXXyVXa-180-90.png') left center;
+        -webkit-background-size: cover;
+        background-size: 100% 100%;
+      }
+
+      span {
+        font-size: 14px;
+        color: #ffffff;
+        line-height: 45px;
+        margin-left: 7px;
+        display: inline-block;
+      }
+    }
+
+    .login-page-body {
+      height: 660px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .login-page-body-main {
+        .logo {
+          font-size: 40px;
+          text-align: center;
+          color: #ffffff;
+          height: 102px;
+        }
+        h2 {
+          font-family: 'PingFangSC-Medium';
+          font-size: 20px;
+          color: #ffffff;
+          text-align: center;
+          margin-bottom: 54px;
+        }
+        .login-form{
+    		height: 40px; 
+    		width: 400px;
+    		.ant-btn,.login-form-button,.ant-btn-primary{
+    			width: 100%;
+    			height: 40px;
+    		} 
+        }
+      }
+    }
+    .add-text {
+      font-family: '.PingFangSC-Regular';
+      font-size: 14px;
+      color: #c6c8c9;
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      margin-left: -60px;
+    }
+  }
+}

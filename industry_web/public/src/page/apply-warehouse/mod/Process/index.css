@@ -1,0 +1,133 @@
+.multparameter-content {
+  padding-left: 150px;
+  padding-top: 20px;
+}
+
+.multparameter-content .next-step-item-title {
+  float: left;
+}
+
+.multparameter-content .next-step-item-content {
+  float: left;
+}
+
+.multparameter-content .next-radio-group label {
+  margin-right: 65px;
+}
+
+.multparameter-content .factors::-webkit-scrollbar {
+  width: 0;
+}
+
+.multparameter-content .factors {
+  border: 1px solid #ccc;
+  width: 305px;
+  height: 81px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: #fff;
+  padding: 10px;
+  display: inline-block;
+}
+
+.multparameter-content .ant-steps-item .ant-steps-icon {
+  line-height: 32px;
+}
+
+.multparameter-content .ant-steps-item .ant-steps-item-content .ant-select-selection {
+  width: 250px;
+}
+
+.multparameter-content .step-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.multparameter-content .step-item .step-item-left {
+  margin-right: 10px;
+  color: #666666;
+  margin-left: 6px;
+}
+
+.multparameter-content .next-form-item-label {
+  padding-right: 20px;
+  color: #666666;
+  font-size: 14px;
+  margin-left: -32px;
+}
+
+.content-component .content-box {
+  border: 1px solid #ddd;
+}
+
+.content-component .tag {
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+  background: #E4FAFE;
+  border: 1px solid #0FB2CC;
+  border-radius: 2px;
+  font-family: "PingFangSC-Regular";
+  font-size: 10px;
+  color: #000000;
+  position: relative;
+}
+
+.content-component .tag-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  background: #0FB2CC;
+  border: 1px solid #0FB2CC;
+  border-radius: 2px;
+  z-index: 1001;
+  color: #FFFFFF;
+  line-height: 24px;
+  display: none;
+}
+
+.content-component .tag:hover .tag-hover {
+  display: inline-block;
+}
+
+.content-component .tag-close {
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+  border: 1px solid #ececec;
+  border-radius: 2px;
+  font-family: "PingFangSC-Regular";
+  font-size: 10px;
+  position: relative;
+  background: #ececec;
+  color: #000000;
+}
+
+.content-component .tag-close:hover .tag-hover {
+  display: inline-block;
+}
+
+.content-component .next-col-fixed-4 {
+  line-height: 47px;
+  color: #aaa;
+  margin-left: 50px;
+}
+
+.dialog-content {
+  padding: 20px;
+  width: 100%;
+  height: 150px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+}
+
+.dialog-content::-webkit-scrollbar {
+  width: 0px;
+}

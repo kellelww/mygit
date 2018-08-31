@@ -1,0 +1,76 @@
+
+.app-data-content {
+  position: relative;
+  height: 100%;
+  .watch-icon {
+    cursor: pointer;
+  }
+  .Pagination {
+    position: absolute;
+    left: 38%;
+    // bottom: -0.5%;
+    bottom: 35px;
+    z-index: 999;
+  }
+  .mask-details {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+    background: #fff;
+    padding-bottom: 25px;
+    h3 {
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .mask-close {
+      width: 100%;
+      height: 50px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      border-top: 1px solid #dcdcdd;
+      .pagenum {
+        position: absolute;
+        left: 42%;
+        top: 23%;
+      }
+      .close {
+        position: absolute;
+        right: 30px;
+        top: 10px;
+      }
+    }
+  }
+  .close-active {
+    transition: 0.7s;
+    right: -100%;
+  }
+  .is-mask-active {
+    transition: 1s;
+    right: -1%;
+  }
+  .mask-button {
+    width: 100%;
+    height: 40px;
+    .close {
+      margin-top: 6px;
+      margin-left: 10px;
+    }
+  }
+  .table-mask::-webkit-scrollbar {
+    width: 0px;
+  }
+  .table-mask {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    .ant-pagination {
+      margin-right: 16px;
+    }
+  }
+  .ant-table-tbody, .ant-table-thead {
+    font-size: 14px;
+  }
+}

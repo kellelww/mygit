@@ -1,0 +1,13 @@
+.task-page {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.13);
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding-top: 20px;
+  height: 100%;
+  background: #f6f7f8;
+}
+
+.task-page .next-input.next-input-multiple textarea {
+  height: 100%;
+}

@@ -1,0 +1,112 @@
+// @import '../../styles/common';
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+
+  .login-page-head {
+    width: 100%;
+    height: 50px;
+    // background: #FFFFFF;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0px 0px 5px #111;
+
+    .login-page-header {
+      width: 100%;
+      height: 50px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: relative;
+      padding: 0;
+
+      .header-logo {
+        display: flex;
+        align-items: center;
+
+        .head-logo {
+          display: inline-block;
+          width: 71px;
+          height: 50px;
+          background: #1B2126;
+
+          .little-logo {
+            width: 60px;
+            height:30px;
+            color: #00c1de;
+            font-size: 25px;
+            display: inline-block;
+            position: relative;
+            top: 6px;
+            background:url('https://img.alicdn.com/tfs/TB1BcpLbTtYBeNjy1XdXXXXyVXa-180-90.png') left center;
+            -webkit-background-size: cover;
+            background-size: 100% 100%;
+          }
+        }
+
+        h3 {
+          font-family: "PingFangSC-Regular";
+          font-size: 16px;
+          color: #333333;
+          line-height: 18px;
+          margin-top: 5px;
+        }
+      }
+
+      .login-info-show {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+
+        .user-img {
+          background: url('https://img.alicdn.com/tfs/TB19dl8dMoQMeJjy0FpXXcTxpXa-60-60.png') left top no-repeat;
+          background-size: cover;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+        }
+
+        .handle-list {
+          width: 200px;
+          height: 120px;
+          position: absolute;
+          top: 40px;
+          right: -15px;
+
+          li {
+            width: 200px;
+            height: 40px;
+            color: white;
+            background: #333333;
+            padding-left: 15px;
+            line-height: 35px;
+          }
+
+          li:hover {
+            background: black;
+          }
+        }
+      }
+    }
+  }
+
+  .next-nav-primary.hoz .next-nav-menu .next-nav-item {
+    height: 50px;
+  }
+
+  .next-nav-primary.hoz .next-nav-menu,
+  .next-nav-primary.hoz .next-nav-menu .next-nav-item {
+    background: #333333;
+  }
+
+  .next-icon-medium:before {
+    margin-left: 2px;
+  }
+}

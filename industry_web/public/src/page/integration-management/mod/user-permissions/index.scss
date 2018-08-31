@@ -1,0 +1,188 @@
+// @import "../../../../styles/common";
+.integration-management-content {
+  width: 100%;
+  height: 100%;
+  padding: 50px 20px 20px;
+  overflow: hidden;
+  position: relative;
+  .right-bottom {
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 -2px 1px #dcdcdc;
+    position: absolute;
+    left: 0px;
+    background: #fff;
+    z-index: 99;
+    bottom: 0px;
+  }
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+  .add-btn {
+    position: absolute;
+    right: 35px;
+    top: 66px;
+    z-index: 999;
+  }
+
+  .role-content {
+    overflow: scroll;
+  }
+  .role-content::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  .role-menu-content {
+    overflow: hidden;
+
+    .role-menu {
+      padding-left: 5px;
+      padding-right: 5px;
+      height: 36px;
+      color: #000000;
+      border: 1px solid #ccc;
+      line-height: 36px;
+      text-align: center;
+      float: left;
+      border-right: none;
+      cursor: pointer;
+    }
+  }
+
+  .role-menu:last-child {
+    border-right: 1px solid #ccc;
+  }
+
+  .next-tabs-capsule > .next-tabs-bar .next-tabs-tab.active {
+    color: #00c1de;
+    background: #fff;
+    border-right: 1px solid #00c1de;
+  }
+
+  .next-tabs-tab {
+    transition: none;
+  }
+
+  .show-tree-node {
+    width: 509px;
+    padding: 40px;
+    background: #eaeaea;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .show-tree-node::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .next-tabs-small .next-tabs-content {
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .next-tabs-content::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .person-management {
+    width: 100%;
+    overflow: hidden;
+    .scroll {
+      overflow-y: scroll;
+      overflow-x: hidden;
+      margin-top: 20px;
+      height: 100%;
+      padding-bottom: 150px;
+    }
+    .top-go {
+      display: flex;
+      flex-direction: row;
+      .top-go-item {
+        background-color: #ffffff;
+        padding: 5px 15px 7px;
+        font-family: MicrosoftYaHei;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.86);
+        border: 1px solid #cecece;
+      }
+
+      .top-go-item-first {
+        padding: 5px 15px 7px;
+        background-color: #ffffff;
+        font-family: MicrosoftYaHei;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.86);
+        border: 1px solid #cecece;
+        border-right-width: 0;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+      }
+      .top-go-item-last {
+        padding: 5px 15px 7px;
+        font-family: MicrosoftYaHei;
+        font-size: 12px;
+        background-color: #ffffff;
+        color: rgba(0, 0, 0, 0.86);
+        border: 1px solid #cecece;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        margin-left: -1;
+      }
+    }
+  }
+
+  .person-management::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .next-form-item-explain {
+    color: #ff4343;
+  }
+
+  .next-form-item.has-error .next-form-item-control .next-input,
+  .next-form-item.has-error .next-form-item-control .next-number-picker-input,
+  .next-form-item.has-error .next-form-item-control .next-range-picker,
+  .next-form-item.has-error .next-form-item-control .next-select {
+    border-color: #00c1de;
+  }
+
+  .next-form-item-label[required]:before {
+    color: #fff;
+  }
+
+  .next-table th {
+    background: #fbfbfc;
+    color: #999999;
+  }
+
+  .next-tabs-strip > .next-tabs-bar {
+    border: none;
+  }
+  .next-table th .next-table-cell-wrapper,
+  .next-table td .next-table-cell-wrapper {
+    padding: 12px 40px;
+  }
+  .ant-tabs-bar {
+    height: 46px;
+  }
+  .ant-table-tbody {
+    background: #fff;
+  }
+  .form-input {
+    width: 220px;
+  }
+  .ant-form-item-label {
+    line-height: 32px;
+    height: 32px;
+  }
+  .ant-table-tbody, .ant-table-thead {
+    font-size: 14px;
+  }
+  .active-radio {
+    background: #40a9ff;
+    color:#fff
+  }
+}

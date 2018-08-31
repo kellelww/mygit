@@ -1,0 +1,5 @@
+node_modules
+public/.happypack
+public/node_modules
+public/build
+public/industry

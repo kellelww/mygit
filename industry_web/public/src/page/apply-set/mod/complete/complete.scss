@@ -1,0 +1,21 @@
+
+
+.complete-content {
+  padding: 30px;
+  position: relative;
+  height: 100%;
+  background: url(https://img.alicdn.com/tfs/TB1m0hQbaagSKJjy0FhXXcrbFXa-2302-1024.png) no-repeat center;    
+  .loading {
+    color: #00BFDC!important;
+    transform: scale(2.5);
+  }
+  .complete-loading {
+    position: absolute;
+    left: 36%;
+    top: 40%;
+    span {
+      font-size: 20px;
+      margin-left: 15px;
+    }
+  }
+}

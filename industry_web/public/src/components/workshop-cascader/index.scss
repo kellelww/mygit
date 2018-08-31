@@ -1,0 +1,32 @@
+.cascader-wrapper {
+    display: flex;
+    .workshop-list {
+        height: 235px;
+        overflow: scroll;
+        width: 110px;
+        border: 1px solid #dcdcdc;
+        .list {
+            line-height: 40px;
+            padding: 0 16px;
+            margin: 0;
+            width: 100%;
+            cursor: pointer;
+            &:hover {
+                background: #ececec
+            }
+        }
+        .active {
+            padding: 0 16px;
+            margin: 0;
+            width: 100%;
+            cursor: pointer;
+            background: #ececec;
+            &:hover {
+                background: #ececec
+            }
+        }
+        .ant-checkbox-group {
+            width: 100%
+        }
+    }
+}

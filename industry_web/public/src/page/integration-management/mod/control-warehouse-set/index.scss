@@ -1,0 +1,191 @@
+// @import '../../../../styles/common';
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: #EDEDED;
+
+  .registered-page {
+    width: 100%;
+
+    .container {
+      width: 100%;
+      height: 100%;
+      padding: 30px;
+
+      .content {
+        padding: 10px 20px 20px 20px;
+        width: 100%;
+        height: 100%;
+        background: #EDEDED;
+        overflow: hidden;
+        margin: 0 auto;
+
+        .content-left {
+          width: 100%;
+          float: left;
+          height: 100%;
+          overflow-y: scroll;
+
+          .content-title {
+            font-family: "MicrosoftYaHei";
+            font-size: 14px;
+            color: rgba(0,0,0,0.86);
+            margin: 12px 0;
+          }
+
+          .my-list,
+          .template-list {
+
+            .add-screen {
+              width: 200px;
+              height: 230px;
+              float: left;
+              background: #FFFFFF;
+              margin: 17px 17px 0 0;
+              box-shadow: 0 0 4px 0 rgba(67,88,102,0.10);
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
+
+            dl {
+              float: left;
+              background: #FFFFFF;
+              box-shadow: 0 0 4px 0 rgba(67,88,102,0.10);
+              margin: 17px 17px 0 0;
+
+              dt {
+                width: 200px;
+                height: 150px;
+                padding: 17px 0;
+                position: relative;
+                background: #050E38;
+                overflow: hidden;
+
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+
+                .template-use {
+                  width: 200px;
+                  height: 150px;
+                  position: absolute;
+                  background: rgba(0,0,0,0.50);
+                  top: -150px;
+                  transition: top 0.5s;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+              }
+
+              dt:hover .template-use {
+                top: 0;
+              }
+
+              .template-name {
+                width: 200px;
+                height: 40px;
+                font-family: "MicrosoftYaHei";
+                font-size: 14px;
+                color: #666666;
+                padding: 15px 0 10px 10px;
+              }
+
+              .template-button {
+                width: 180px;
+                height: 40px;
+                font-family: "MicrosoftYaHei";
+                font-size: 12px;
+                color: #7F93AE;
+                margin: 0 10px;
+                padding: 10px 0;
+                border-top: 1px #E8ECF2 solid;
+                display: flex;
+                justify-content: space-around;
+
+                .view-big {
+                  color: #7F93AE;
+                  font-family: NextIcon;
+                  font-size: 12px;
+                  &:hover {
+                    color: #00c1de;
+                  }
+                }
+              }
+            }
+          }
+
+          .my-list {
+            .template-button {
+              justify-content: space-around;
+              display: flex;
+              align-items: center;
+            }
+          }
+        }
+        //
+        // .content-right {
+        //   width: 330px;
+        //   float: right;
+        //
+        //   .screen-introduce {
+        //     min-height: 182px;
+        //     background: #FFFFFF;
+        //     overflow: hidden;
+        //     margin: 20px 0;
+        //
+        //     .introduce-text {
+        //       font-family: "MicrosoftYaHei";
+        //       font-size: 12px;
+        //       color: #666666;
+        //       line-height: 20px;
+        //     }
+        //   }
+        //
+        //   .about-question {
+        //     min-height: 336px;
+        //     background: #FFFFFF;
+        //     overflow: hidden;
+        //
+        //     .question-list-item {
+        //       font-family: "MicrosoftYaHei";
+        //       font-size: 12px;
+        //       color: #666666;
+        //       line-height: 27px;
+        //     }
+        //   }
+        //
+        //   .about-question,
+        //   .screen-introduce {
+        //     padding: 15px;
+        //
+        //     h3 {
+        //       height: 35px;
+        //       font-family: "MicrosoftYaHei";
+        //       font-size: 12px;
+        //       color: #333333;
+        //       border-bottom: 4px #ECECEC solid;
+        //     }
+        //   }
+        // }
+      }
+    }
+
+    .next-icon-medium:before {
+      font-size: 15px;
+    }
+  }
+
+  .control-next-input {
+    width: 319px;
+    height: 30px;
+  }
+  .icon-style {
+    margin-right: 5px;
+  }
+}
